@@ -1,0 +1,32 @@
+{
+  "name": "computer-parts-api",
+  "version": "1.0.0",
+  "description": "REST API untuk database komponen PC dengan Supabase",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "api",
+    "rest",
+    "supabase",
+    "pc-parts",
+    "cpu",
+    "gpu",
+    "ram",
+    "ssd"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.84.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
