@@ -71,7 +71,7 @@ app.use((err, req, res, next) => {
     });
 });
 
-const port = process.env.PORT || 3003;
+const port = process.env.PORT || 3010;
 
 app.listen(port, () => {
     console.log(`🚀 Server berjalan di port ${port}`);
